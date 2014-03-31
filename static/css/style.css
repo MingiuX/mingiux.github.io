@@ -8,12 +8,9 @@ body {
 .wrapper {
 	max-width: 450px;
 	margin: 0 auto;
-	/*border: 1px solid #fff;*/
 }
 
 header {
-	/*margin: 0 auto;*/
-	/*max-width: 300px;*/
 	border-bottom: 1px solid rgba(255,135,0,0.2);
 	margin-bottom: 40px;
 	padding-bottom: 30px;
@@ -52,7 +49,6 @@ h2 {
 
 .links {
 	display: block;
-	/*border: 1px solid #fff;*/
 	margin: 0 auto;
 	margin-top: 40px;
 	padding: 0px;
@@ -63,17 +59,14 @@ h2 {
 .links li {
 	margin: 0px;
 	display: inline-block;
-	/*border: 1px solid #fff;*/
 	padding: 5px;
 	padding-top: 0px;
 	max-width: 65px;
-	/*width: 16%;*/
 	text-align: center;
 }
 
 .links li a {
 	font-size: 50px;
-	/*border: 1px solid #fff;*/
 	color: rgba(255,135,0,0.6);
 	-webkit-transition: all .4s ease;
 	transition: all .4s ease;
