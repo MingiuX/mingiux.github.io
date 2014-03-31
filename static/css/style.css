@@ -1,0 +1,92 @@
+body {
+	background-color: #494949;
+	font-family: helvetica, sans-serif;
+	padding-top: 150px;
+	text-align: center;
+}
+
+.wrapper {
+	max-width: 450px;
+	margin: 0 auto;
+	/*border: 1px solid #fff;*/
+}
+
+header {
+	/*margin: 0 auto;*/
+	/*max-width: 300px;*/
+	border-bottom: 1px solid rgba(255,135,0,0.2);
+	margin-bottom: 40px;
+	padding-bottom: 30px;
+	text-align: center;
+	position: relative;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 1000;
+	color: rgba(255,135,0,1);
+	text-align: center;
+	font-family: 'Roboto Slab', helvetica, sans-serif;
+}
+
+h2 {
+	font-size: 13px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: rgba(255, 135, 0, .6);
+	margin-top: 20px;
+}
+
+.avatar {
+	border-radius: 100%;
+	border: 2px solid rgba(255,135,0,0.5);
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+	padding: 5px;
+}
+
+.avatar:hover {
+	border: 2px solid rgba(255,135,0,0.9);
+}
+
+.links {
+	display: block;
+	/*border: 1px solid #fff;*/
+	margin: 0 auto;
+	margin-top: 40px;
+	padding: 0px;
+	text-align: center;
+	list-style-type: none;
+}
+
+.links li {
+	margin: 0px;
+	display: inline-block;
+	/*border: 1px solid #fff;*/
+	padding: 5px;
+	padding-top: 0px;
+	max-width: 65px;
+	/*width: 16%;*/
+	text-align: center;
+}
+
+.links li a {
+	font-size: 50px;
+	/*border: 1px solid #fff;*/
+	color: rgba(255,135,0,0.6);
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+	padding: 10px;
+	padding-bottom: 4px;
+	text-decoration: none;
+}
+
+.links li a:hover {
+	color: rgba(255,135,0,1);
+}
+
+.nerdz {
+	font-weight: bolder;
+	text-decoration: none;
+}
