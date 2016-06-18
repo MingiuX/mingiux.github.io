@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Gossiping</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="node.js" type="text/javascript"></script>
+
+    <style> 
+        body {
+            padding: 0; 
+            margin: 0; 
+            text-align: center;
+        } 
+        canvas {
+            vertical-align: top;
+            border: 1px solid;
+        }
+        #commands {
+            padding-top: 20px;
+        }
+        #step {
+            margin: auto;
+            padding: 10px;
+            margin-top: 5px;
+        }
+        </style>
+  </head>
+  <body>
+      <h1>Gossiping simulator</h1>
+      <div id="canvasContainer"></div>
+      <div id="commands">
+      <span>N° of nodes</span><input type="text" id="nodes" name="nodes" value="100">
+      <button id="generate" name="generate">Generate new mesh</button>
+      <button id="reset" name="reset">Reset current mesh</button><br/>
+      <button id="step" name="step">Next step</button>
+      <p id="info">Select starting node</p>
+      </div>
+  </body>
+</html>
